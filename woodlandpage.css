@@ -1,0 +1,147 @@
+*{box-sizing: border-box;margin: 0px;padding: 0px;}
+
+body{font-family: Arial, Helvetica, sans-serif;}
+
+.search-cart{background-color: #014421;padding: 20px; color: white; display: flex;justify-content: flex-end;font-size: 14px;gap: 20px }
+
+header{display: flex;
+    justify-content:flex-start;align-items: center;
+    padding: 5px 30px;background-color:bisque;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);}
+
+ nav a{
+    margin: 0 15px; text-decoration: none;color: black;font-weight: 500;}  
+.hero {
+      position: relative;
+      background: url('hero-banner5.webp')  no-repeat center center;
+      background-size: cover;
+      height: 150vh;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 50px;
+}
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 50, 100, 0.5);
+    }
+
+    .hero-content {
+      position: relative;
+      max-width: 400px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero h2 {
+      font-size: 2rem;
+      color: black;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      color: black;
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .shop-btn {
+      background: #014421;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .container {
+      background-color: bisque;
+   display: grid;padding: 30px; margin: 0px;
+   grid-template-columns: repeat(4,1fr);
+   text-align: center;
+   gap: 30px;
+  justify-content: space-between;
+  gap: 40px;
+}
+.card {
+  background: white;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: relative; 
+}
+.card img {
+  width: 100%;
+  height: 250px;
+  display:grid;
+}
+.label {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  
+}
+
+.label h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.label button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.add{
+  text-align: center;
+  background-color: bisque;
+  padding: 20px;margin:0px;
+}.add img{height: 400px;width: 1300px;}
+.footer{
+columns: 5;
+column-gap: 5px;
+-moz-columns:4 ;
+padding-bottom: 90px;
+padding-top: 70px;
+ background: linear-gradient(to right,#0f3f10,#1f7f30);
+color: white;
+}
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.footer-column ul {
+  list-style:none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  margin: 5px 0;
+}
+
+
